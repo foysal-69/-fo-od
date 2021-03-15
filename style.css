@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+#banner{
+    background-image:linear-gradient(rgba(0,0,0,0.5), #4b8b3b ), url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+}
+.logo{
+    width: 130px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    font-weight: bold;
+    transform: uppercase;
+    color:greenyellow ;
+    font-size: 20px;
+    font-family: 
+    Bradley Hand, cursive	;
+}
+.banner-text{
+text-align: center;
+color: #ffffff;
+padding-top: 180px;
+}
+
+.banner-text h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+.banner-text p{
+    font-size: 25px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 130px;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    padding: 12 0;
+    color: #ffffff;
+    border: 0.5px solid #ffffff;
+
+}
+.banner-btn a:hover{
+    background-color: #ffffff;
+    color: #000;
+    cursor: pointer;
+}
+.nav{
+    float: right;
+    margin-right: 15px;
+
+    ;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px ;
+    padding-top: 20px;
+    margin-right: 30px;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+ul li a:hover{
+    color: white;
+    background-color:#4b8b3b ;
+    border: 1px solid black;
+    border-radius:2px;
+}
+.service{
+    width: 100%;
+    margin-top: 7px;
+    padding-top: 20px;
+    background-color: #efefef;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background:linear-gradient(#019587, #fff);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.title-text h1{
+    font: size 50px;
+}
+.box1{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+
+}
+.box2{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.box2 img{
+    width: 100%;
+    border-radius: 9px;
+    color: black;
+}
+.service1{
+    width: 100%;
+   margin-top: 4px;
+   padding-top: 30px;
+    background-color: #efefef;
+}
